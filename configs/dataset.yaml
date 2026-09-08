@@ -1,0 +1,18 @@
+dataset:
+  name: NEU-DET
+  description: NEU surface defect database
+  image_size:
+    width: 200
+    height: 200
+
+classes:
+  - crazing
+  - inclusion
+  - patches
+  - pitted_surface
+  - rolled-in_scale
+  - scratches
+
+paths:
+  raw: data/raw
+  processed: data/processed

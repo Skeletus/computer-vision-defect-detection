@@ -40,11 +40,7 @@ weights/
 *.onnx
 
 # Dataset
-data/images/
-data/labels/
-data/train/
-data/val/
-data/test/
+data/
 datasets/
 
 # Temporary files
