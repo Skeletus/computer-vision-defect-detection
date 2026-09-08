@@ -50,8 +50,7 @@ temp/
 *.log
 
 # Generated results
-results/predictions/
-results/weights/
+results/
 
 # Cache
 .cache/
