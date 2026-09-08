@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyTorch / YOLO training outputs
+runs/
+weights/
+*.pt
+*.pth
+*.onnx
+
+# Dataset
+data/images/
+data/labels/
+data/train/
+data/val/
+data/test/
+datasets/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Generated results
+results/predictions/
+results/weights/
+
+# Cache
+.cache/
+*.cache
