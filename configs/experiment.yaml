@@ -1,0 +1,12 @@
+model: yolov8n.pt
+
+training:
+  epochs: 100
+  patience: 25
+  batch: 64
+  imgsz: 320
+  seed: 0
+
+run:
+  project: runs
+  name: yolov8n_neu_det
